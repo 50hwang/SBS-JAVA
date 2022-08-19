@@ -8,6 +8,7 @@ public class Code07 {
 		Person s = new Student();
 		t.print();
 		s.print();
+		
 	}
 
 }

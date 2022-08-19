@@ -10,6 +10,7 @@ abstract class Person {
 
 	/* methods */
 	abstract void print();
+
 	
 }
 
