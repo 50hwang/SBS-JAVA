@@ -1,15 +1,3 @@
-### <깃허브에 올리는 법 시도 >
-
-[Git] 이클립스(Eclipse)에서 깃허브(GitHub)로 프로젝트 올리기 — soo_vely의 개발로그 (tistory.com)
-[Eclipse] GitHub연동중 발생한 오류들 / GitHub로그인, branch변경 (tistory.com)
-
-===============================================================
-
-### < github 업로드용 credential 토큰 키 >
-
-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 ForLocalIDE
-
-===============================================================
 
 ### (지난 시간에 이어 계속)
 
