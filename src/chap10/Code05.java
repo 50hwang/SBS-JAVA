@@ -7,6 +7,10 @@ public class Code05 {
 		String x = new String("Hello world");
 		String y = new String("Hello world");
 		
+		/* String class가 일반 클래스와 다른 점 */
+		System.out.println(x);				//문자열 클래스의 경우만 문자열 출력
+		System.out.println(x.toString());	//이것 역시 마찬가지
+		
 		if ( x == y ) {
 			System.out.println("x == y");
 		} else {
