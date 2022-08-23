@@ -15,7 +15,7 @@ public class Code09 {
 		System.out.println("6. " + Math.pow(2, 10));
 		System.out.println("7. " + Math.round(3.7));
 		System.out.println("8. " + Math.sqrt(25));
-		
+
 	}
 	
 }
