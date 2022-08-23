@@ -37,15 +37,33 @@ Code08을 통해서 StringBuffer의 각종 메소드들과 동작 원리를 이해하자.
 # <java.lang.Math 클래스>
 
 ## 필드 종류
-1. static double E : 자연 로그 e 값
-2. static double PI : 원주율 PI 값
+1. `static double E` : 자연 로그 e 값
+2. `static double PI` : 원주율 PI 값
 
 ## 메소드 종류
-1. static double abs(double a) : a의 절대값
-2. static double ceil(double a) : a 이상의 수 중에서 가장 작은 정수(올림)
-3. static double floor(double a) : a 이하의 수 중에서 가장 큰 정수(버림)
-4. static double max(double a, double b) : a와 b 중에서 큰 값
-5. static double min(double a, double b) : a와 b 중에서 작은 값
-6. static double pow(double a, double b) : a의 b승
-7. static long round(double a) : a를 반올림한 값을 반환
-8. static double sqrt(double a) : a의 루트 값을 반환
+1. `static double abs(double a)` : a의 절대값
+2. `static double ceil(double a)` : a 이상의 수 중에서 가장 작은 정수(올림)
+3. `static double floor(double a)` : a 이하의 수 중에서 가장 큰 정수(버림)
+4. `static double max(double a, double b)` : a와 b 중에서 큰 값
+5. `static double min(double a, double b)` : a와 b 중에서 작은 값
+6. `static double pow(double a, double b)` : a의 b승
+7. `static long round(double a)` : a를 반올림한 값을 반환
+8. `static double sqrt(double a)` : a의 루트 값을 반환
+
+# <Number 클래스>
+
+## 포함하고 있는 것
+- `byte`
+- `short`
+- `integer`
+- `long`
+- `float`
+- `double`
+
+## 메소드의 종류
+1. `byte byteValue()` : byte 값으로 반환
+2. `abstract double doubleValue()` : double 값으로 반환
+3. `abstract float floatValue()` : float 값으로 반환
+4. `abstract int intValue()` : int 값으로 반환
+5. `abstract long longValue()` : long 값으로 반환
+6. `short shortValue()` : short 값으로 반환
