@@ -127,9 +127,5 @@ Math.Random을 이용하여 컴퓨터가 1에서 100 사이의 정수를 임의로 선택하도록 합니다
         
 ### 다음 시간에 할 것
 
-1. Random 클래스
-2. 코드 작성 문제(컴퓨터가 결정한 숫자를 맞추는 문제)
-    - 컴퓨터가 제시한 숫자 : int hiddenNumber <- 랜덤
-    - 내가 맞출 숫자 : int guessNumber <- 유저 입력
-    - 맞추면 "Good!", 틀리면 "Uh-oh!"
-    - 시도 횟수 : int usedChance (++usedChance)
+1. 예외처리(Ch09), 입출력(Ch14)
+2. [eGov 프레임워크(전자 정부 프레임워크)](https://www.egovframe.go.kr/home/main.do) 갖고 미리 배워놓을 것 - 순수 개발자들을 위한 중요한 매뉴얼!!
