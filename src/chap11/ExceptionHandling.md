@@ -25,7 +25,15 @@ try {
 ```
 
 2. throws 이용하기
-
+ 
+ 
 - Throwable 클래스에서 알아야 할 두 메소드
     1. String getMessage() : 예외에 대한 설명을 반환
     2. void printStackTrace() : 발생한 예외에 대한 정보를 반환
+ 
+ 
+- 예외 생성
+ 
+ 
+- 사용자 정의 예외
+
