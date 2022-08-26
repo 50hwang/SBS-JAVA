@@ -57,3 +57,38 @@
     - long nextLong() : long 데이터를 읽음
     - float nextFloat() : float 데이터를 읽음
     - double nextDouble() : double 데이터를 읽음
+
+### System 클래스
+
+- System 클래스의 필드
+    - in : public static final InputStream in
+    - out : public static final PrintStream out
+    - err : public static final PrintStream err
+  
+ 
+- System.in
+    - InputStream 클래스의 메소드
+    - public abstract int read() throws IOException
+  
+  
+- System.out
+    - write 메소드
+    - public abstract void write(int b) throws IOException : 정수 b의 하위 8비트를 출력
+    - public void write(byte[] b) throws IOException : byte 배열 b의 내용을 출력
+    - public void write(byte[] b, int off, int len) throws IOException : 배열 b의 off 위치로부터 len 길이만큼 출력
+ 
+ 
+## 파일 입출력 클래스
+
+### 파일 입력
+ 
+- FileInputStream : 파일로부터 바이트 단위로 데이터를 읽어 옴.
+- FileReader : 파일로부터 문자 단위로 데이터를 읽어 옴.
+
+### 파일 출력
+
+- FileOutputStream : 파일로 바이트 단위의 데이터를 출력함.
+- FileWriter : 파일로 문자 단위의 데이터를 출력함.
+ 
+ 
+- NullPointerException : 파일이 없어서 fis가 초기값 null을 그대로 갖고 있는 상태인데 close()를 시도하려고 하기 때문에 나오는 예외
