@@ -107,5 +107,38 @@
     2. int read(char[] cbuf) : 파일로부터 읽어온 문자들을 배열 -> cbuf에 저장
     3. int read(char[] cbuf, int offset, int length) : 파일로부터 length 개의 문자를 읽어와서 배열 -> cbuf[offset] 위치부터 저장
  
+ ```
+ 문제)
+  
+ 파일 student.txt에는 각 줄에 [학생번호, 이름, 성적]이 저장되어 있음.
+ 모두 10명의 학생 정보가 저장되어 있다고 할 때, 학생들의 정보를 읽어서 각 학생을 객체로 생성하여 객체 바열에 저장하는 프로그램을 작성하시오.
  
+ student.txt 내용)
+ 1 David 80
+ 2 Andrew 92
+ 3 Cindy 77
+ 4 Paul 82
+ 5 Tom 73
+ 6 Alice 85
+ 7 Elizabeth 79
+ 8 Daniel 100
+ 9 Sarah 81
+ 10 Jennifer 95
+ 
+ 실행 결과)
+ == Student List ==
+ ------------------
+ 1 : David( 80 )
+ 2 : Andrew( 92 )
+ 3 : Cindy( 77 )
+ 4 : Paul( 82 )
+ 5 : Tom( 73 )
+ 6 : Alice( 85 )
+ 7 : Elizabeth( 79 )
+ 8 : Daniel( 100 )
+ 9 : Sarah( 81 )
+ 10 : Jennifer( 95 )
+ 
+ ```
+
 
