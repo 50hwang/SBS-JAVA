@@ -142,3 +142,16 @@
  ```
 
 
+
+### FileOutputStream을 이용한 파일 출력
+ 
+ > 파일 출력 : 파일로 데이터를 저장하는 것
+ 
+- FileOutputStream 생성자
+    1. FileOutputStream(File file) : File 객체로부터 스트림을 생성
+    2. FileOutputStream(File file, boolean append) : File 객체로부터 스트림을 생성하되, 이미 존재하는 파일이면 원래 내용 밑에 추가하는지를 append에 제공
+    3. FileOutputStream(String name) : 문자열로 파일명을 입력받아 스트림을 생성
+    4. FileOutputStream(String name, boolean append) 문자열로 파일명을 입력받아 스트림을 생성하되, 이미 존재하는 파일이면, 원래 내용 밑에 추가하는지를 append에 제공
+ 
+
+-       
