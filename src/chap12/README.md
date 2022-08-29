@@ -80,7 +80,6 @@
  
 ## 파일 입출력 클래스
 
-> 파일 처리를 정확하게 수행하기가 어렵기 때문에, 발생할 수 있는 모든 예외 상황에 대한 처리가 필요하다.
 
 ### 파일 입력
  
@@ -92,5 +91,21 @@
 - FileOutputStream : 파일로 바이트 단위의 데이터를 출력함.
 - FileWriter : 파일로 문자 단위의 데이터를 출력함.
  
+> 파일 처리를 정확하게 수행하기가 어렵기 때문에, 발생할 수 있는 모든 예외 상황에 대한 처리가 필요하다.
  
 - NullPointerException : 파일이 없어서 fis가 초기값 null을 그대로 갖고 있는 상태인데 close()를 시도하려고 하기 때문에 나오는 예외
+
+### fileReader를 이용한 파일 입력
+ 
+- FileReader 생성자
+    1. FileReader(File file) : File 객체를 통하여 FileReader 객체를 생성
+    2. FileReader(String fileName) : 파일명을 이용하여 FileReader 객체를 생성
+ 
+ 
+- FileReader 메소드
+    1. int read() : 파일로부터 한 문자를 읽어오고, 읽어온 데이터를 반환
+    2. int read(char[] cbuf) : 파일로부터 읽어온 문자들을 배열 -> cbuf에 저장
+    3. int read(char[] cbuf, int offset, int length) : 파일로부터 length 개의 문자를 읽어와서 배열 -> cbuf[offset] 위치부터 저장
+ 
+ 
+
