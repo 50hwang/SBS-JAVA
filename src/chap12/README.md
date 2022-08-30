@@ -160,5 +160,9 @@
     3. abstract void write(int b) : 데이터 b를 파일로 출력
     4. void write(byte[] b) : b 바이트 길이의 데이터를 파일로 출력
     5. void write(byte[] b, int off, int len) : 배열 b[off]부터 len 길이만큼의 데이터를 파일로 출력
+ 
 
-    
+- 보조 스트림 클래스 : 입출력 성능 향상을 위해 제공되는 클래스로, 다음과 같은 클래스들이 있음.
+    - InputStreamReader / OutputStreamWriter
+    - BufferedInputStream / BufferedOutputStream
+    - OutputStreamReader / InputStreamWriter
