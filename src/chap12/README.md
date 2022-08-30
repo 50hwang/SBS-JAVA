@@ -154,4 +154,11 @@
     4. FileOutputStream(String name, boolean append) 문자열로 파일명을 입력받아 스트림을 생성하되, 이미 존재하는 파일이면, 원래 내용 밑에 추가하는지를 append에 제공
  
 
--       
+- FileOutputStream 메소드
+    1. void close() : 스트림을 닫음
+    2. void flush() : 출력 버퍼를 강제로 비우고 데이터를 출력
+    3. abstract void write(int b) : 데이터 b를 파일로 출력
+    4. void write(byte[] b) : b 바이트 길이의 데이터를 파일로 출력
+    5. void write(byte[] b, int off, int len) : 배열 b[off]부터 len 길이만큼의 데이터를 파일로 출력
+
+    
